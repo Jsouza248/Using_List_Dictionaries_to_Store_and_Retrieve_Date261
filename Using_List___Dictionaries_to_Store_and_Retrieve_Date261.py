@@ -48,7 +48,7 @@ def printinfo(EmpDetailList):
         taxrate = EmpList[5]
 
         grosspay, incometax, netpay = CalcTaxAndNetPay(hours, hourlyrate, taxrate)
-        #print(fromdate, todate, empname, f"{hours:,.2f}", f"{hourlyrate:,.2f}", f"{grosspay:,.2f}", f"{taxrate:,.1%}", f"{incometax:,.2f}", f"{netpay:,.2f}"
+        
 
         print()
         print("Name: ", empname)
